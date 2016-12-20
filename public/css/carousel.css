@@ -1,0 +1,18 @@
+.carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 100%;
+        min-height: 300px;
+        margin: auto;
+    }
+  
+    .carousel{
+        max-height:800px;
+        overflow:hidden;
+    }
+  
+    .carousel-indicators > li{
+        border-color:purple;
+    }
+    .carousel-indicators > li.active{
+        background-color:purple;
+    }

@@ -1,0 +1,168 @@
+    #main{
+      background:url('../img/header/plant.jpg');
+      /*width: 100%;*/
+      margin: auto; 
+      background-repeat: no-repeat;
+    }
+  .btn-top {
+    margin-top: 120px;
+    float: right;
+    margin-right: 3.9%;
+  }
+  a.link-top {
+    height: 32px;
+    background: url('../img/index/top.png') no-repeat 100% 50%;
+    background-size: 32px;
+    font-size: 1.8rem;
+    line-height: 32px;
+    text-align: right;
+    padding-right: 46px;
+    display: inline-block;
+  }
+  /*搜尋欄*/
+    .search{
+        background: #a3bcd2;
+        height: 75px;
+        padding: 15px;
+    }
+
+    .dropdown.dropdown-lg .dropdown-menu {
+        margin-top: -1px;
+        padding: 6px 20px;
+    }
+    .input-group-btn .btn-group {
+        display: flex !important;
+    }
+    .btn-group .btn {
+        border-radius: 0;
+        margin-left: -1px;
+    }
+    .btn-group .btn:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    .btn-group .form-horizontal .btn[type="submit"] {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .form-horizontal .form-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .form-group .form-control:last-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    @media screen and (min-width: 768px) {
+        #adv-search {
+            width: 500px;
+            margin: 0 auto;
+        }
+        .dropdown.dropdown-lg {
+            position: static !important;
+        }
+        .dropdown.dropdown-lg .dropdown-menu {
+            min-width: 500px;
+            }
+    }
+
+    /*植物顯示欄*/
+
+    .splt-itm {
+        max-height: 200px;
+    }
+    .splt-itm {
+        position: relative;
+        background-color: #fcf8e3;
+        width: 47%;
+        margin: 0 1% 1% 0;
+        padding: 1%;
+        float: left;
+    }
+
+    /*植物圖片*/
+    .splt-itm a figure {
+        overflow: hidden;
+        width: 140px;
+        height: 170px;
+        /* background-color: #bbbbbb; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .splt-itm a figure {
+        padding: 0;
+        margin: 0;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    .splt-itm a figure img {
+        min-width: 140px;
+        min-height: 170px;
+        height: 170px;
+        max-width: inherit;
+    }
+
+
+    /*植物欄中標題*/
+    a {
+        color: #53b9b6;
+        text-decoration: none;
+        outline: none;
+    }
+    .splt-itm a h4 {
+        text-align: left;
+    }
+    .splt-itm a h4 {
+        margin: 0;
+        padding: 0;
+        color: #2c5655;
+        font-size: 22px;
+        line-height: 28px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        display: block;
+        -webkit-margin-before: 1.33em;
+        -webkit-margin-after: 1.33em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    /*Modal*/
+    .myModal {
+        top: 200px;
+    }
+
+    .vertical-catch {
+        background: rgba(223, 240, 216, 0.54);;
+        overflow: hidden;
+    }
+
+    .top-lead {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 10px;
+        margin: 0 auto;
+        font-family: Microsoft JhengHei;
+    }
+
+    .attention-box {
+        background: #F0F0F0;
+        box-sizing: border-box;
+        max-width: 638px;
+        margin: 10px auto;
+        font-size: 20px;
+        font-family: Microsoft JhengHei;
+        text-align: center;
+    }
+    
+/*# sourceMappingURL=library.css.map */

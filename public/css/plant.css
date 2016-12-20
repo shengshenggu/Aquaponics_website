@@ -1,0 +1,126 @@
+    #contents {
+      width: 100%;
+      min-height: 100%;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+    }
+    #contents .pc {
+      display: block;
+    }
+    h3 {
+      font-weight: 100;
+      font-size: 4.0rem;
+      line-height: 1.4;
+      text-align: center;
+    }
+    #hospitality .detail {
+      margin-top: 60px;
+      padding-bottom: 40px;
+      background-color: #f2dede;
+    }
+    #hospitality .detail .inner {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    #hospitality .detail .group {
+      position: relative;
+      margin: 120px 3.91% 0;
+    }
+    #hospitality .detail .group-t1 .image {
+      width: 57.2%;
+    }
+    #hospitality .detail .group-fr .image {
+      float: right;
+    }
+    #hospitality .detail .group .image {
+      position: relative;
+    }
+    #hospitality .detail .group .txt .body {
+      font-size: 1.6rem;
+      margin-top: 40px;
+    }
+    #hospitality .detail .group-t1 .txt {
+      width: 40.1%;
+    }
+    #hospitality .detail .group-fr .txt {
+      float: left;
+    }
+    #hospitality .detail .group .txt dl {
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid #ce4040;
+    }
+    #hospitality .detail .group .txt dl dd {
+      margin-left: 6.0em;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    dl {
+      display: block;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+    }
+    #hospitality .detail .group .txt dl dt {
+      font-weight: bold;
+      float: left;
+      font-size: 16px;
+    }
+
+    #hospitality .detail .inner {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    #hospitality .detail .group-t1 .txt {
+      width: 40.1%;
+    }
+    #hospitality .detail .group-fl .txt {
+      float: right;
+    }
+    #hospitality .detail .group-t1 .image {
+      width: 57.2%;
+    }
+    #hospitality .detail .group-fl .image {
+      float: left;
+    }
+    #hospitality .detail .group .image {
+      position: relative;
+    }
+    .cf:before, .cf:after {
+      content: "";
+      display: block;
+      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    .cf:after {
+      clear: both;
+    }
+    #hospitality .detail .group.line {
+      padding-top: 120px;
+      border-top: 5px solid #F0F0F0;
+    }
+
+    #hospitality .detail .group-t2 {
+      padding: 0 5.85%;
+    }
+
+    #hospitality .detail .group-t2 .image, #hospitality .detail .group-t2 .txt {
+      width: 48.5%;
+    }
+    #hospitality .detail .group-fl .txt {
+      float: right;
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    /*.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    */
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+    }
+/*# sourceMappingURL=plant.css.map */

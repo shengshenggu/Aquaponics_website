@@ -1,0 +1,15 @@
+* {
+    font-family: "Comic Sans MS", Sans-serif;
+}
+
+img {
+	margin: 0;
+}
+
+.w3-black {
+    background-color: rgba(0,0,0,0.8) !important;
+}
+
+.w3-top {
+	z-index: 100
+}

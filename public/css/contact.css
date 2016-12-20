@@ -1,0 +1,23 @@
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 80px;
+  border-radius: 3px;
+  margin-top: 80px;
+}
+
+span {
+  color: #03b6a3;
+  font-size: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container{
+  background-color: #fcf8e3;
+  text-align: center;
+}
